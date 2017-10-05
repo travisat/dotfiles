@@ -1,0 +1,19 @@
+#!/bin/bash
+
+case "$BLOCK_BUTTON" in
+    1)
+        i3-msg 'scratchpad show' > /dev/null
+        ;;
+    3)
+        i3-msg 'scratchpad show' > /dev/null
+        ;;
+    4)
+        i3-msg 'scratchpad show; scratchpad show;' > /dev/null
+        ;;
+    5)
+        i3-msg 'scratchpad show; scratchpad show;' > /dev/null
+        ;;
+    *)
+esac
+
+echo ""

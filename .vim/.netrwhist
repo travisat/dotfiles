@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/travis/projects/electron-quick-start/node_modules/interact.js'
+let g:netrw_dirhist_2='/home/travis/.vim'
+let g:netrw_dirhist_3='/home/travis/.themes/Numix Solarized/gtk-3.0'
+let g:netrw_dirhist_4='/home/travis/.themes/Numix Solarized/gtk-3.0/dist'
+let g:netrw_dirhist_5='/usr/lib/prezto/modules/fasd'
+let g:netrw_dirhist_6='/etc/ifplugd'
+let g:netrw_dirhist_7='/home/travis/Downloads'
+let g:netrw_dirhist_8='/home/travis/Projects/rubykoans/koans'

@@ -1,0 +1,66 @@
+# Please see man i3blocks for a complete reference!
+# The man page is also hosted at http://vivien.github.io/i3blocks
+
+# Global properties
+#
+# The top properties below are applied to every block, but can be overridden.
+# Each block command defaults to the script name to avoid boilerplate.
+
+align=center
+color=#268bd2
+separator=false
+separator_block_width=1
+markup=pango
+
+#[seperator]
+#full_text=
+
+# Volume indicator
+[volume]
+command=~/.config/i3blocks/volume
+instance=Master
+color=#2d2d2d
+background=#a09f93
+min_width=50
+
+interval=2
+signal=10
+
+#[seperator]
+#full_text= 
+
+# Battery indicator
+[battery]
+command=~/.config/i3blocks/battery.py
+color=#2d2d2d
+background=#a09f93
+min_width=50
+interval=30
+
+#[seperator]
+#full_text= 
+
+# Date Time
+[date]
+label= 
+command=date '+%D'
+interval=5
+color=#2d2d2d
+background=#a09f93
+min_width=80
+
+#[seperator]
+#full_text= 
+
+# Date Time
+[time]
+label= 
+command=date '+%l:%M'
+interval=5
+color=#2d2d2d
+background=#f2777a
+min_width=60
+
+
+#[seperator]
+#full_text=
