@@ -17,14 +17,11 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'chriskempson/base16-vim'
 
-Plugin 'Shougo/vimproc.vim'
-Plugin 'Shougo/unite.vim'
-
-Plugin 'leafgarland/typescript-vim'
-
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Bundle 'edkolev/tmuxline.vim'
+
+Plugin 'scrooloose/nerdtree'
 call vundle#end()
 
 " Turn on syntax highlighting
